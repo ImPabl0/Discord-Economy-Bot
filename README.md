@@ -17,7 +17,19 @@ Instale o bot com npm
   npm install Discord-Economy-Bot
   cd Discord-Economy-Bot
 ```
-    
+Depois configure as variáveis no arquivo ``config.json`` da forma como está abaixo:
+![config.json](https://media.discordapp.net/attachments/854826340615979069/1026515341490258064/unknown.png)
+
+Execute o commands.js
+```bash
+  node commands.js
+```
+
+Agora seu bot está pronto para ser executado (Recomendo usar o nodemon que reinicia o bot a cada save que você der no projeto ``ndm install nodemon``)
+
+```bash
+  nodemon index.js
+```
 ## Autores
 
 - [@imPabl0](https://github.com/ImPabl0)
@@ -25,16 +37,30 @@ Instale o bot com npm
 
 ## Aprendizados
 
-O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
+Neste projeto aprendi como executar comandos simples do sistema MySQL usando o [Sequelize](https://sequelize.org/), noções básicas de JavaScript, Node.JS,
+consumo de APIs e uso de WebHooks.
 
 
 ## Screenshots
 - Sistema de geração de Keys
+
 ![App Screenshot](https://media.discordapp.net/attachments/1025996714974400622/1026507509311225936/unknown.png?width=425&height=473)
+
 - Sistema de resgate de Keys
-![Sistema de resgate](https://media.discordapp.net/attachments/1025996714974400622/1026508638573051934/unknown.png)
+
+![Sistema de resgate](https://media.discordapp.net/attachments/854826340615979069/1026510361312112660/unknown.png)
+
 - Sistema de logs para as Keys
+ 
 ![Sistema de logs](https://media.discordapp.net/attachments/1025996714974400622/1026509073178435614/unknown.png)
+
+- Sistema de transferência de coins
+
+![Sistema de transferência de Coins](https://media.discordapp.net/attachments/854826340615979069/1026511502569644152/unknown.png)
+
+- Comando para ver o saldo
+
+![Comando para ver o saldo](https://media.discordapp.net/attachments/854826340615979069/1026512199541334107/unknown.png)
 ## Funcionalidades
 
 - Sistema de transferência de moeda.
