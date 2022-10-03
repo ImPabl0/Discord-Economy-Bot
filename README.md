@@ -34,10 +34,6 @@ Agora seu bot está pronto para ser executado (Recomendo usar o nodemon que rein
 ```bash
   nodemon index.js
 ```
-## Autores
-
-- [@imPabl0](https://github.com/ImPabl0)
-
 
 ## Aprendizados
 
@@ -72,3 +68,6 @@ consumo de APIs e uso de WebHooks.
 - Interação com o Mercado Pago (Troca dinheiro real por coins) ~Em desenvolvimento~.
 - Interação com MySQL e criação de LOG para cada ação feita.
 
+## Autores
+
+- [@imPabl0](https://github.com/ImPabl0)
