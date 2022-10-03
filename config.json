@@ -1,0 +1,13 @@
+{
+    "token":"TOKEN_DO_SEU_BOT",
+    "clientid":"ID_DO_SEU_BOT",
+    "guildid":"ID_DO_SEU_SERVIDOR_DISCORD",
+    "giftimage":"IMAGEM_DO_EMBED_GERAR",
+    "allowedusers":["ID_DE_QUEM_VAI_EXECUTAR_O_COMANDO_GERAR"],
+    "_comment":"VARIÁVEIS DA DATABASE ABAIXO",
+    "database_ip":"localhost",
+    "database_user":"root",
+    "database_pass":"",
+    "database":"marcobank",
+    "database_dialect":"mariadb"
+}
