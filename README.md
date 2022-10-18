@@ -67,7 +67,7 @@ consumo de APIs e uso de WebHooks.
 - Sistema de geração de ``Keys`` para adição de moeda na economia ~Quase concluído~.
 - Interação com o Mercado Pago (Troca dinheiro real por coins) ~Em desenvolvimento~.
 - Interação com MySQL e criação de LOG para cada ação feita.
-
+- Sistema de tickets
 ## Autores
 
 - [@imPabl0](https://github.com/ImPabl0)
