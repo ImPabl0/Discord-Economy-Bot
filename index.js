@@ -4,9 +4,9 @@ const Discord = require('discord.js')
 const {Client, GatewayIntentBits,ButtonBuilder, messageLink, MessageType, EmbedBuilder,SelectMenuBuilder,ActivityType, ActionRowBuilder, ButtonStyle} = require('discord.js');
 
 const client = new Discord.Client({intents:[GatewayIntentBits.Guilds, 'DirectMessages', 'MessageContent']});
-const sequelize = new Sequelize('marcobank', 'root', '',{
-    host:'localhost',
-    dialect:'mariadb',
+const sequelize = new Sequelize(database_name, database_user, database_password,{
+    host:database_ip,
+    dialect:database_dialect,
     logging:false
 })
 const marcobank = sequelize.define('contas',{
@@ -16,13 +16,13 @@ const marcobank = sequelize.define('contas',{
         default: 5,
         allowNull: false,
     },
-},{dialect:'mariadb'});
+},{dialect:database_dialect});
 const marcokey = sequelize.define('keys',{
     fatkey: Sequelize.TEXT,
     valid: Sequelize.TEXT,
     
     
-},{dialect:'mariadb'});
+},{dialect:database_dialect});
 function MakeKey(length) {
     var result           = 'FatKey';
     var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
