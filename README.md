@@ -64,7 +64,7 @@ consumo de APIs e uso de WebHooks.
 ## Funcionalidades
 
 - Sistema de transferência de moeda.
-- Sistema de geração de ``Keys`` para adição de moeda na economia ~Quase concluído~.
+- Sistema de geração de ``Keys`` para adição de moeda na economia.
 - Interação com o Mercado Pago (Troca dinheiro real por coins) ~Em desenvolvimento~.
 - Interação com MySQL e criação de LOG para cada ação feita.
 - Sistema de tickets para suporte
