@@ -25,7 +25,7 @@ Execute o commands.js
   node commands.js
 ```
 
-Agora seu bot está pronto para ser executado (Recomendo usar o nodemon que reinicia o bot a cada save que você der no projeto ``npm install nodemon``)
+Agora seu bot está pronto para ser executado (Recomendo usar o nodemon que reinicia o projeto a cada save que você der no projeto ``npm install nodemon``)
 
 ```bash
   node commands.js
