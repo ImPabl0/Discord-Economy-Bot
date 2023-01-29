@@ -14,7 +14,6 @@ Outras pessoas também podem reutilizar esse bot para seus servidores sem proble
 Instale o bot com npm
 
 ```bash
-  npm install Discord-Economy-Bot
   cd Discord-Economy-Bot
 ```
 Depois configure as variáveis no arquivo ``config.json`` da forma como está abaixo:
